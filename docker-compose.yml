@@ -2,7 +2,7 @@ services:
   mc:
     image: itzg/minecraft-server:java21-graalvm
     ports:
-      - 25575:25575
+      - 25575:25565
     environment:
       EULA: TRUE
       # server type
